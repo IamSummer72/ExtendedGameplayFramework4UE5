@@ -8,7 +8,7 @@ public class ExtendedFramework : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EasyBallistics", "GASCompanion"});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule", "EasyBallistics", "GASCompanion"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

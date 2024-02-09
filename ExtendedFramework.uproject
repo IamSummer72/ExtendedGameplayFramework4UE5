@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"GASCompanion",
-				"Engine"
+				"Engine",
+				"GameplayAbilities"
 			]
 		}
 	],

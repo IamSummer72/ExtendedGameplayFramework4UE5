@@ -3,7 +3,7 @@ DerivedDataCache
 Intermediate
 Saved
 EffectsLibrary
-GameFeatures/*
+GameFeatures
 .vscode
 .vs
 *.VC.db

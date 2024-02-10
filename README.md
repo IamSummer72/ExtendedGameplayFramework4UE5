@@ -1,3 +1,8 @@
 # ExtendedFramework
 
-Developed with Unreal Engine 5
+Extended Unreal Engine 5 game development framework that extends everything by C++
+
+## Dependency
+
+EasyBallistics  
+GASCompanion

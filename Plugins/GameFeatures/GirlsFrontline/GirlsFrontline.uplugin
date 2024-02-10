@@ -16,19 +16,5 @@
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"ExplicitlyLoaded": true,
-	"BuiltInInitialFeatureState": "Loaded",
-	"Plugins": [
-		{
-			"Name": "WeaponLibrary",
-			"Enabled": true
-		},
-		{
-			"Name": "EasyBallistics",
-			"Enabled": true
-		},
-		{
-			"Name": "GASCompanion",
-			"Enabled": true
-		}
-	]
+	"BuiltInInitialFeatureState": "Loaded"
 }

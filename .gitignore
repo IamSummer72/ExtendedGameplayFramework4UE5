@@ -2,8 +2,8 @@ Binaries
 DerivedDataCache
 Intermediate
 Saved
-EffectsLibrary
-GameFeatures
+EffectsLibrary/
+GameFeatures/
 .vscode
 .vs
 *.VC.db

@@ -1,5 +1,4 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 
 public class EasyBallisticsExtended : ModuleRules
@@ -7,38 +6,22 @@ public class EasyBallisticsExtended : ModuleRules
 	public EasyBallisticsExtended(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		PublicIncludePaths.AddRange(
-			new string[] {
-				// ... add public include paths required here ...
-			}
-			);
-				
-		
-		PrivateIncludePaths.AddRange(
-			new string[] {
-				// ... add other private include paths required here ...
-			}
-			);
-			
-		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
+				"EasyBallistics"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
 			
-		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"CoreUObject",
-				"Engine",
-				"Slate",
-				"SlateCore",
-				"EasyBallistics",
+                "Engine",
+                "PhysicsCore",
+				"EasyBallistics"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

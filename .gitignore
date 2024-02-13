@@ -2,6 +2,8 @@ Binaries
 DerivedDataCache
 Intermediate
 Saved
+/Content/*
+!/Content/Main
 EffectsLibrary
 GameFeatures
 .vscode

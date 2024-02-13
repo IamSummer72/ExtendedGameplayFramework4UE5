@@ -6,11 +6,8 @@
 #include "GameFramework/GameUserSettings.h"
 #include "ExtendedGameUserSettings.generated.h"
 
-/**
- * 
- */
 UCLASS()
-class GASCOMPANIONEXTENDED_API UExtendedGameUserSettings : public UGameUserSettings
+class EXTENDEDFRAMEWORK_API UExtendedGameUserSettings : public UGameUserSettings
 {
 	GENERATED_BODY()
 	

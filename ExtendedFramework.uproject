@@ -309,6 +309,10 @@
 		{
 			"Name": "WeaponLibrary",
 			"Enabled": false
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

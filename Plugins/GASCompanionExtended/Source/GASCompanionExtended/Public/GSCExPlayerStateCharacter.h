@@ -6,12 +6,9 @@
 #include "ModularGameplayActors/GSCModularPlayerStateCharacter.h"
 #include "GSCExPlayerStateCharacter.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class GASCOMPANIONEXTENDED_API AGSCExPlayerStateCharacter : public AGSCModularPlayerStateCharacter
 {
 	GENERATED_BODY()
-	
+
 };

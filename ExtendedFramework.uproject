@@ -303,16 +303,16 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/823ddd7e3de04de59f5f56dd17321857"
 		},
 		{
-			"Name": "GirlsFrontline",
-			"Enabled": true
-		},
-		{
 			"Name": "WeaponLibrary",
 			"Enabled": false
 		},
 		{
 			"Name": "AnimationWarping",
 			"Enabled": true
+		},
+		{
+			"Name": "EffectsLibrary",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [

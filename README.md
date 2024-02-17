@@ -1,6 +1,6 @@
 # ExtendedFramework
 
-Extended Unreal Engine 5 game development framework that extends everything by C++
+Extended gameplay framework for UE5 that extends some plugins and settings by C++
 
 ## Dependency
 

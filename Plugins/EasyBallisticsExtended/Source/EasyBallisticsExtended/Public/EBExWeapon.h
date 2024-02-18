@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "EBExWeapon.generated.h"
 
+class USKeletalMeshComponent;
+class UBoxComponent;
+class UEBExBarrel;
+
 UCLASS()
 class EASYBALLISTICSEXTENDED_API AEBExWeapon : public AActor
 {
@@ -22,5 +26,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USkeletalMeshComponent> Mesh;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UBoxComponent> BoxComponent;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UEBExBarrel> BarrelComponent;
 
 };

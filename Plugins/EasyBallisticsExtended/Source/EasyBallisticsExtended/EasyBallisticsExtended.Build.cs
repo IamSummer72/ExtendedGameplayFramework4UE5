@@ -9,8 +9,7 @@ public class EasyBallisticsExtended : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
-				"EasyBallistics"
+				"Core"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -21,9 +20,9 @@ public class EasyBallisticsExtended : ModuleRules
 				"CoreUObject",
                 "Engine",
                 "PhysicsCore",
+				// ... add private dependencies that you statically link with here ...
 				"EasyBallistics"
-				// ... add private dependencies that you statically link with here ...	
-			}
+            }
 			);
 		
 		

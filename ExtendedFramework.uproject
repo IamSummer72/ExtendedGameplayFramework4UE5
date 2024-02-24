@@ -313,6 +313,10 @@
 		{
 			"Name": "EffectsLibrary",
 			"Enabled": false
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

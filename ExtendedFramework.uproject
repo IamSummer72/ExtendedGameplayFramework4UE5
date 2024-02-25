@@ -320,7 +320,7 @@
 		},
 		{
 			"Name": "UVPacker",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fdf43c04cb6c49debd388ec0d802cad7"
 		}
 	],

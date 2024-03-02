@@ -19,12 +19,12 @@ void UEBExWeaponComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// Spawn the weapon
-	if (WeaponClass)
+	if (IsValid(WeaponClass))
 	{
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.Owner = GetOwner();
 
-		TObjectPtr<AEBExWeapon> Weapon = GetWorld()->SpawnActor<AEBExWeapon>(WeaponClass, GetComponentTransform(), SpawnParams);
+		Weapon = GetWorld()->SpawnActor<AEBExWeapon>(WeaponClass, GetComponentTransform(), SpawnParams);
 		Weapon->AttachToComponent(this, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 	}
 }

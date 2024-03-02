@@ -322,6 +322,11 @@
 			"Name": "UVPacker",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fdf43c04cb6c49debd388ec0d802cad7"
+		},
+		{
+			"Name": "AnimationMagic",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/9e6d160b3b744458acd6c820e657c5ea"
 		}
 	],
 	"TargetPlatforms": [

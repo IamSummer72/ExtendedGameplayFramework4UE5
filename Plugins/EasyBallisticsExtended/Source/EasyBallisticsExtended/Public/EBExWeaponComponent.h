@@ -29,4 +29,8 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Weapon")
 	TSubclassOf<class AEBExWeapon> WeaponClass;
 
+	// The weapon instance
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Weapon")
+	AEBExWeapon* Weapon;
+
 };

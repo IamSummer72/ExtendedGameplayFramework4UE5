@@ -248,10 +248,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "GLTFExporter",
-			"Enabled": false
-		},
-		{
 			"Name": "VariantManagerContent",
 			"Enabled": false
 		},
@@ -327,6 +323,10 @@
 			"Name": "AnimationMagic",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/9e6d160b3b744458acd6c820e657c5ea"
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
